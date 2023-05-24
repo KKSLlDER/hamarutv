@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AnsattComponent } from './ansatt/ansatt.component';
 import { HeaderComponent } from './header/header.component';
+import { VirksomhetComponent } from './virksomhet/virksomhet.component';
+import { KartComponent } from './kart/kart.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AnsattComponent,
-    HeaderComponent
+    HeaderComponent,
+    VirksomhetComponent,
+    KartComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
